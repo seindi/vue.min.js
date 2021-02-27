@@ -45,6 +45,8 @@ vue.parse_url = function (on_update = true) {
 	if (on_update) vue.on ("update", function () { vue.parse_url (false) })
 	}
 
+window.url = URL.parse (lib.string (window.location))
+
 /**
  * the end
  *
