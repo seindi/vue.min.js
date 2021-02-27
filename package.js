@@ -12,5 +12,3 @@ export default {
 	request: vue.request,
 	process: vue.process,
 	}
-
-window.url = URL.parse (L.string (window.location))

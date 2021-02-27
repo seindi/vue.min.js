@@ -1,13 +1,13 @@
 {
 "name": "vue.min.js",
-"version": "1.0.0-0",
+"version": "1.0.0-1",
 "description": "Vue JScript",
 "author": "Seindi Rahmat Barus <seindi@outlook.com>",
 "license": "MIT",
 "homepage": "https://github.com/seindi/vue.min.js",
 "repository": {"type": "git", "url": "git+https://github.com/seindi/vue.min.js.git"},
 "bugs": {"url": "https://github.com/seindi/vue.min.js/issues"},
-"main": "package.js", "files": ["package.js", "package.vue", ".github", ".gitignore", "HISTORY", "LICENSE", "README.md", "dependencies/", "library/", "public/", "src/"],
+"main": "package.js", "files": ["package.js", "package.vue", ".github", ".gitignore", ".npm", ".npmignore", "HISTORY", "LICENSE", "README.md", "dependencies/", "library/", "public/", "src/"],
 "keywords": ["vue"],
 "dependencies": {"library.min.js": "latest"}
 }
