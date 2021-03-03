@@ -6,15 +6,12 @@
  * xxx://xxx.xxx.xxx/xxx
  */
 
-import "library.min.js"
-import "library.min.js/plugin"
-
 import vue, {lib, library} from "vue.min.js"
 import app from "/src/app.vue"
-import router from "/src/vue/router"
-import x from "/src/vue/store"
-import view from "/src/vue/view"
-import "/src/vue"
+import router from "/src/router"
+import x from "/src/store"
+import view from "/src/view"
+import "/src/main-setup"
 
 /**
  * title
