@@ -1,4 +1,6 @@
 /**
+ * xxx
+ *
  * title
  * description
  * sub description
@@ -9,6 +11,8 @@
 import vue, {lib, library} from "vue.min.js"
 
 /**
+ * xxx
+ *
  * title
  * description
  * sub description

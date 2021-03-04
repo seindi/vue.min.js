@@ -1,3 +1,13 @@
+/**
+ * xxx
+ *
+ * title
+ * description
+ * sub description
+ *
+ * xxx://xxx.xxx.xxx/xxx
+ */
+
 export default {
 	define: Object.define,
 	object: Object, array: Array, string: String, math: Math, number: Number,
@@ -10,3 +20,9 @@ export default {
 	ls: Function.LocalStorage, session: Function.Session, cookie: Function.Cookie,
 	query: Function.query, attribute: Function.attribute,
 	}
+
+/**
+ * the end
+ *
+ * xxx://xxx.xxx.xxx/xxx
+ */

@@ -1,4 +1,6 @@
 /**
+ * xxx
+ *
  * title
  * description
  * sub description
@@ -9,6 +11,8 @@
 import vue, {lib, library} from "vue.min.js"
 
 /**
+ * xxx
+ *
  * title
  * description
  * sub description
@@ -20,6 +24,8 @@ vue.api = "http://127.0.0.1:3000"
 vue.app = {}
 
 /**
+ * xxx
+ *
  * title
  * description
  * sub description

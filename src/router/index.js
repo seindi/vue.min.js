@@ -1,4 +1,6 @@
 /**
+ * xxx
+ *
  * title
  * description
  * sub description
@@ -9,6 +11,8 @@
 import vue, {lib, library} from "vue.min.js"
 
 /**
+ * xxx
+ *
  * title
  * description
  * sub description
@@ -19,6 +23,8 @@ import vue, {lib, library} from "vue.min.js"
 var router = []
 
 /**
+ * xxx
+ *
  * title
  * description
  * sub description
@@ -32,6 +38,8 @@ router.push ({path: "/contact", name: "page:contact", component: () => import ("
 router.push ({path: "/help", name: "page:help", component: () => import ("./page/help.vue"), meta: {layout: "page"}})
 
 /**
+ * xxx
+ *
  * title
  * description
  * sub description
@@ -42,6 +50,8 @@ router.push ({path: "/help", name: "page:help", component: () => import ("./page
 router.push ({path: lib.router.try.catch, name: "*", component: () => import ("./error/index.vue"), meta: {layout: "error"}})
 
 /**
+ * xxx
+ *
  * title
  * description
  * sub description
@@ -57,6 +67,8 @@ if (null) {
 	}
 
 /**
+ * xxx
+ *
  * title
  * description
  * sub description
