@@ -1,5 +1,5 @@
 import "library.min.js"
-import "library.min.js/plugin"
+import "lib.min.js/browser"
 
 import vue from "./src/library"
 import ___ from "./src/library/script"

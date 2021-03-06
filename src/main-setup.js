@@ -20,6 +20,7 @@ import vue, {lib, library} from "vue.min.js"
  * xxx://xxx.xxx.xxx/xxx
  */
 
+vue.$$$ = {}
 vue.api = "http://127.0.0.1:3000"
 vue.app = {}
 
@@ -49,6 +50,10 @@ vue.parse_url = function (on_update = true) {
 	var url = URL.parse (protocol.concat ("://").concat (host).concat (path).concat (query))
 	for (var i in url) vue.url [i] = url [i]
 	if (on_update) vue.on ("update", function () { vue.parse_url (false) })
+	}
+
+vue.date = function (... date) {
+	return vue.request.date.time.format (... date)
 	}
 
 window.url = URL.parse (lib.string (window.location))
